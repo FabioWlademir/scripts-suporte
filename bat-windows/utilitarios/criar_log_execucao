@@ -1,0 +1,7 @@
+@echo off
+:: Script para registrar data e hora da execução em um log
+:: Autor: Fábio Wlademir
+
+echo Script executado em %DATE% às %TIME% >> C:\log_script.txt
+echo Log criado em C:\log_script.txt
+pause
