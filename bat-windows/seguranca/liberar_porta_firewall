@@ -1,0 +1,7 @@
+@echo off
+:: Script para liberar porta 3389 (RDP) no firewall
+:: Autor: Fábio Wlademir
+
+netsh advfirewall firewall add rule name="Liberar RDP" dir=in action=allow protocol=TCP localport=3389
+echo Porta 3389 liberada.
+pause
