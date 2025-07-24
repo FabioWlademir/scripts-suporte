@@ -22,14 +22,17 @@ Com suporte às principais linguagens utilizadas no meio corporativo:
 
 ---
 
-## 📂 Estrutura do Projeto
+## 📁 Estrutura do Projeto
 
 scripts-suporte/
-├── bat/ # Scripts .bat (Windows)
-├── shell/ # Scripts .sh (Linux)
-├── python/ # Scripts .py (multiplataforma)
-├── powershell/ # Scripts .ps1 (PowerShell)
-└── README.md # Documentação principal
+├── bat/           # Scripts .bat (Windows)
+├── shell/         # Scripts .sh (Linux)
+├── python/        # Scripts .py (multiplataforma)
+├── powershell/    # Scripts .ps1 (PowerShell)
+└── README.md      # Documentação principal
+
+![Estrutura de Pastas](https://github.com/FabioWlademir/scripts-suporte/blob/main/estrutura.png?raw=true)
+
 
 
 ---
