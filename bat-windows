@@ -1,1 +1,8 @@
+Scripts em lote para Windows, organizados por área:
+
+- **redes/** – Diagnóstico e configuração de rede
+- **manutencao/** – Limpeza, verificação e otimização
+- **seguranca/** – Firewall, proxy, antivírus
+- **sistema/** – Controle e status do sistema operacional
+- **utilitarios/** – Backup, logs, ponto de restauração
 
