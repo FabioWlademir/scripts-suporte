@@ -1,0 +1,10 @@
+<#
+.SINOPSE
+Exibe todos os softwares instalados — útil para auditorias de segurança.
+
+.AUTOR
+Fábio Wlademir
+#>
+
+Get-ItemProperty HKLM:\Software\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\* |
+Select-Object DisplayName, DisplayVersion, Publisher, InstallDate
