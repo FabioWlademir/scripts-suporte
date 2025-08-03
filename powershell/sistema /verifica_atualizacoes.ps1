@@ -7,4 +7,4 @@ Fábio Wlademir
 #>
 
 Install-Module PSWindowsUpdate -Force -Confirm:$false
-Get-WindowsUpdate
+Get-WindowsUpdateLog
